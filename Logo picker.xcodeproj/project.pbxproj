@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA6E536727814068003E82AC /* AboutPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6E536627814068003E82AC /* AboutPageViewController.swift */; };
+		DA6E536B2783ED98003E82AC /* wrongAnswerSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = DA6E536A2783ED97003E82AC /* wrongAnswerSound.wav */; };
 		DA7745892775651E00FF7A05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7745882775651E00FF7A05 /* AppDelegate.swift */; };
 		DA77458B2775651E00FF7A05 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA77458A2775651E00FF7A05 /* SceneDelegate.swift */; };
 		DA77458D2775651F00FF7A05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA77458C2775651E00FF7A05 /* ViewController.swift */; };
@@ -15,6 +17,13 @@
 		DA7745952775651F00FF7A05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA7745932775651F00FF7A05 /* LaunchScreen.storyboard */; };
 		DA7745A02775651F00FF7A05 /* Logo_pickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA77459F2775651F00FF7A05 /* Logo_pickerTests.swift */; };
 		DA7745AB2775651F00FF7A05 /* Logo_pickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7745AA2775651F00FF7A05 /* Logo_pickerUITests.swift */; };
+		DA7745C5277806B300FF7A05 /* LoseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7745C4277806B300FF7A05 /* LoseViewController.swift */; };
+		DA7745CB2778FBF400FF7A05 /* StartPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7745CA2778FBF400FF7A05 /* StartPageViewController.swift */; };
+		DA7745CD27792BF500FF7A05 /* digital-7.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA7745CC27792BD400FF7A05 /* digital-7.ttf */; };
+		DA7745D2277A809B00FF7A05 /* pics.csv in Resources */ = {isa = PBXBuildFile; fileRef = DA7745D1277A809B00FF7A05 /* pics.csv */; };
+		DADC915F277E601500755535 /* RUStoopid.png in Resources */ = {isa = PBXBuildFile; fileRef = DADC915E277E601500755535 /* RUStoopid.png */; };
+		DAEFFE622786AE910050F5E6 /* correct.wav in Resources */ = {isa = PBXBuildFile; fileRef = DAEFFE612786AE910050F5E6 /* correct.wav */; };
+		DAEFFE6627877A6A0050F5E6 /* reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEFFE6527877A6A0050F5E6 /* reachability.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DA6E536627814068003E82AC /* AboutPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutPageViewController.swift; sourceTree = "<group>"; };
+		DA6E536A2783ED97003E82AC /* wrongAnswerSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = wrongAnswerSound.wav; sourceTree = "<group>"; };
 		DA7745852775651E00FF7A05 /* Logo picker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Logo picker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA7745882775651E00FF7A05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA77458A2775651E00FF7A05 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +60,13 @@
 		DA7745A62775651F00FF7A05 /* Logo pickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Logo pickerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA7745AA2775651F00FF7A05 /* Logo_pickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logo_pickerUITests.swift; sourceTree = "<group>"; };
 		DA7745AC2775651F00FF7A05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA7745C4277806B300FF7A05 /* LoseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoseViewController.swift; sourceTree = "<group>"; };
+		DA7745CA2778FBF400FF7A05 /* StartPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartPageViewController.swift; sourceTree = "<group>"; };
+		DA7745CC27792BD400FF7A05 /* digital-7.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "digital-7.ttf"; sourceTree = "<group>"; };
+		DA7745D1277A809B00FF7A05 /* pics.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pics.csv; sourceTree = "<group>"; };
+		DADC915E277E601500755535 /* RUStoopid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RUStoopid.png; sourceTree = "<group>"; };
+		DAEFFE612786AE910050F5E6 /* correct.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = correct.wav; sourceTree = "<group>"; };
+		DAEFFE6527877A6A0050F5E6 /* reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reachability.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +97,9 @@
 		DA77457C2775651E00FF7A05 = {
 			isa = PBXGroup;
 			children = (
+				DA7745D1277A809B00FF7A05 /* pics.csv */,
+				DA7745CC27792BD400FF7A05 /* digital-7.ttf */,
+				DADC915E277E601500755535 /* RUStoopid.png */,
 				DA7745872775651E00FF7A05 /* Logo picker */,
 				DA77459E2775651F00FF7A05 /* Logo pickerTests */,
 				DA7745A92775651F00FF7A05 /* Logo pickerUITests */,
@@ -99,13 +120,19 @@
 		DA7745872775651E00FF7A05 /* Logo picker */ = {
 			isa = PBXGroup;
 			children = (
+				DAEFFE612786AE910050F5E6 /* correct.wav */,
+				DA6E536A2783ED97003E82AC /* wrongAnswerSound.wav */,
 				DA7745882775651E00FF7A05 /* AppDelegate.swift */,
 				DA77458A2775651E00FF7A05 /* SceneDelegate.swift */,
-				DA77458C2775651E00FF7A05 /* ViewController.swift */,
 				DA77458E2775651F00FF7A05 /* Main.storyboard */,
 				DA7745912775651F00FF7A05 /* Assets.xcassets */,
 				DA7745932775651F00FF7A05 /* LaunchScreen.storyboard */,
 				DA7745962775651F00FF7A05 /* Info.plist */,
+				DA7745CA2778FBF400FF7A05 /* StartPageViewController.swift */,
+				DA77458C2775651E00FF7A05 /* ViewController.swift */,
+				DA7745C4277806B300FF7A05 /* LoseViewController.swift */,
+				DA6E536627814068003E82AC /* AboutPageViewController.swift */,
+				DAEFFE6527877A6A0050F5E6 /* reachability.swift */,
 			);
 			path = "Logo picker";
 			sourceTree = "<group>";
@@ -191,7 +218,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1140;
-				LastUpgradeCheck = 1140;
+				LastUpgradeCheck = 1250;
 				ORGANIZATIONNAME = "Adit Gupta";
 				TargetAttributes = {
 					DA7745842775651E00FF7A05 = {
@@ -233,8 +260,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA7745952775651F00FF7A05 /* LaunchScreen.storyboard in Resources */,
+				DAEFFE622786AE910050F5E6 /* correct.wav in Resources */,
 				DA7745922775651F00FF7A05 /* Assets.xcassets in Resources */,
+				DA7745D2277A809B00FF7A05 /* pics.csv in Resources */,
 				DA7745902775651F00FF7A05 /* Main.storyboard in Resources */,
+				DA7745CD27792BF500FF7A05 /* digital-7.ttf in Resources */,
+				DA6E536B2783ED98003E82AC /* wrongAnswerSound.wav in Resources */,
+				DADC915F277E601500755535 /* RUStoopid.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +291,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA7745CB2778FBF400FF7A05 /* StartPageViewController.swift in Sources */,
+				DA6E536727814068003E82AC /* AboutPageViewController.swift in Sources */,
+				DAEFFE6627877A6A0050F5E6 /* reachability.swift in Sources */,
 				DA77458D2775651F00FF7A05 /* ViewController.swift in Sources */,
+				DA7745C5277806B300FF7A05 /* LoseViewController.swift in Sources */,
 				DA7745892775651E00FF7A05 /* AppDelegate.swift in Sources */,
 				DA77458B2775651E00FF7A05 /* SceneDelegate.swift in Sources */,
 			);
@@ -342,6 +378,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -350,6 +387,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = BBAV4X378Q;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -402,6 +440,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -410,6 +449,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = BBAV4X378Q;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
